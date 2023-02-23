@@ -33,17 +33,17 @@ let specialChars = [
   '?', 
   '@', 
   '[', 
-  // "\", 
-  "]", 
+  ']', 
   '^', 
   '_', 
   '`', 
   '{', 
   '|', 
   '}', 
-  '~', 
-  '"'
+  '~'
 ]
+
+console.log(specialChars);
 
 // Define lower case alphabet array
 let lowerAlpha = [
@@ -209,7 +209,9 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   console.log(password);
 
-  passwordText.value = password;
+
+
+  passwordText.textContent = password;
 
 }
 
