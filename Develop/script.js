@@ -175,6 +175,15 @@ function generatePassword() {
   incUpperCase();
   incLowerCase();
 
+  // Tests to make sure at least one character type has been chosen
+  while (charTypes === 0) {
+    alert("At least one character type needs to be included.")
+    incSpecialChars();
+    incNumbers();
+    incUpperCase();
+    incLowerCase();
+  }
+
   let finalPassword = '';
 
   for (let j = 0; j < pswrdLength; j++) {
