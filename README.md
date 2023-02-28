@@ -21,7 +21,7 @@ Screenshot of example of password generated:
 
 ## Credits
 
-N/A
+Thank you to UCB Coding Bootcamp course materials for providing the html and css code used for this application. 
 
 ## License
 
